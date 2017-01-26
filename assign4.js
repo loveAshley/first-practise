@@ -14,7 +14,7 @@ console.log(tipPercent)
 
 const tipAmount = (tipPercent / 100) * mealCost
 console.log(tipAmount)
-const totalOwing = tipAmount + mealCost
+const totalOwing = tipAmount + Number(mealCost)
 console.log(totalOwing)
 const outPut = `your meal was $${mealCost} + a ${tipPercent}% tip = ${totalOwing}`
 
